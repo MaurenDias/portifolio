@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio • Mauren Machado Dias — Cyberpunk</title>
+
+  <!-- Fonte futurista -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Fundo animado -->
+  <div class="bg-planes"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="avatar">
+        <img src="imagem/sua-foto.png" alt="Foto Mauren Machado Dias" />
+        <span class="avatar-glow"></span>
+      </div>
+
+      <div class="title">
+        <h1 class="name">Mauren Machado Dias</h1>
+        <p class="role">Desenvolvedora Web</p>
+
+        <nav class="socials" aria-label="Redes sociais">
+          <a href="https://github.com/MaurenDias" aria-label="GitHub"><span class="sr-only">GitHub</span>GH</a>
+          <a href="www.linkedin.com/in/mauren-machado-dias-42a0a5239" aria-label="LinkedIn"><span class="sr-only">LinkedIn</span>IN</a>
+          <a href="https://www.instagram.com/maurendiias/" aria-label="Instagram"><span class="sr-only">Instagram</span>IG</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- HABILIDADES -->
+    <section id="skills" class="panel skills">
+      <div class="panel-head"><h2>Habilidades</h2></div>
+      <div class="panel-body skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C#</div>
+        <div class="skill">.NET</div>
+        <div class="skill">WordPress</div>
+        <div class="skill">Design de Landing Pages</div>
+        <div class="skill">Frameworks Modernos</div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="panel about about-white">
+      <div class="panel-head"><h2>Sobre Mauren</h2></div>
+      <div class="panel-body">
+        <p>Desenvolvedora Front-End, apaixonada por criar experiências visuais e interfaces performáticas. Atualmente cursando Engenharia de Software, tenho facilidade em aprender rapidamente novos sistemas, linguagens e frameworks. Trabalho com HTML, CSS, JavaScript e frameworks modernos, transformando designs em código limpo, otimizado e funcional. Tenho experiência na criação de páginas de vendas para produtos digitais e desenvolvimento de landing pages para empresas, unindo design e funcionalidade para entregar soluções completas e de impacto.</p>
+        <p class="meta">🔧 Front-end • 🎨 UI • ⚡ Performance</p>
+      </div>
+    </section>
+
+    <!-- EDUCAÇÃO -->
+    <section id="educacao" class="panel education">
+      <div class="panel-head"><h2>Formação</h2></div>
+      <div class="panel-body">
+        <p>🎓 <strong>Engenharia de Software</strong> – Universidade Uniasselvi</p>
+        <p>💻 Cursos extras: Desenvolvimento Front-End, WordPress, Design de Landing Pages, Scrum Master.</p>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="panel projects">
+      <div class="panel-head"><h2>Projetos</h2></div>
+      <div class="panel-body grid">
+        <article class="project-card">
+          <div class="card-top"></div>
+          <h3>Página de vendas</h3>
+          <p>Landing responsiva para venda de ebook, focada em conversão.</p>
+          <a class="card-btn" href="https://maurendias.github.io/psicologia/" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"></div>
+          <h3>Modelo de portifolio</h3>
+          <p>Portfólio com foco em apresentar o especialista ao mercado.</p>
+          <a class="card-btn" href="https://maurendias.github.io/plataforma-/" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top"></div>
+          <h3>Modelo de Landing page</h3>
+          <p>Foco na venda de um produto de forma rápida e fácil.</p>
+          <a class="card-btn" href="https://maurendias.github.io/ebook-dog/" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="panel contact">
+      <div class="panel-head"><h2>Contato</h2></div>
+      <div class="panel-body">
+        <p>Quer entrar em contato e tirar dúvidas? <a href="mailto:maurendiaas@gmail.com" class="contact-email">maurendiaas@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> • Mauren Machado Dias — Desenvolvedora Web</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
